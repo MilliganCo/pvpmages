@@ -1,0 +1,42 @@
+node_modules/
+dist/
+build/
+*.log
+.DS_Store
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+# Node / frontend
+.next/
+.nuxt/
+# IDE
+.idea/
+.vscode/
+# OS
+Thumbs.db
+desktop.ini
+# Secrets and local config
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.crt
+id_rsa
+id_rsa.pub
+# Data and artifacts
+runs/
+tmp/
+tmp_pytorch/
+*.sqlite
+*.db
+*.csv
+*.xlsx
+*.xls

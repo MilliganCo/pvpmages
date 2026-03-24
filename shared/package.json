@@ -1,0 +1,13 @@
+{
+  "name": "pvpmages-shared",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.0"
+  }
+}
