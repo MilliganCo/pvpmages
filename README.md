@@ -1,5 +1,7 @@
 # Glyph Duel / Дуэль Глифов
 
+> Public source preview: see [PUBLICATION.md](PUBLICATION.md) for actual checks, known failures and runtime limits.
+
 PvP-игра для локальной сети: два игрока рисуют глифы на матрице символов и сражаются заклинаниями.
 
 ## Быстрый старт
@@ -15,15 +17,15 @@ npm run dev
 ```
 
 3. Откройте в браузере две вкладки:
-   
+ <br>
    **Локальное тестирование на одной машине:**
    - `http://localhost:5173/p1`
    - `http://localhost:5173/p2`
-   
+ <br>
    Или используйте URL параметры (fallback):
    - `http://localhost:5173?p=1`
    - `http://localhost:5173?p=2`
-   
+ <br>
    **Обычный режим (автоматическое назначение ID):**
    - `http://localhost:5173`
 
@@ -63,3 +65,8 @@ npm run dev
 - **Этап 3**: Улучшение распознавания, UI-полировка, баланс ✅
 - **Этап 3.1**: Фикс рисования, help-меню, уменьшение поля до 24×24 ✅
 
+
+
+## Public source status — 2026-10-29
+
+See [PUBLICATION.md](PUBLICATION.md) for the current verification scope, prototype limitations and runtime boundaries. Earlier audit checklists describe historical work.
